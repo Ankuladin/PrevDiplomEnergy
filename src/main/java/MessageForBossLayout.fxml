@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MessageForBossController">
+    <children>
+        <TextField fx:id="TF1" layoutX="32.0" layoutY="42.0" />
+        <Button fx:id="btn1" onAction="#clickSend" layoutX="208.0" layoutY="42.0" mnemonicParsing="false" text="Відправити" />
+    </children>
+</AnchorPane>
